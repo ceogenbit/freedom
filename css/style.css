@@ -254,6 +254,7 @@ body {
 /* =======================Section End======================= */
 .section__end {
 	background: url(/img/image-end.jpg) 50%/cover no-repeat;
+	background-color: #000;
 }
 .section__end-inner {
 	min-height: 494px;
