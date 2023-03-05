@@ -47,7 +47,7 @@ body {
 }
 /* =======================Header======================= */
 .header {
-	background: url(img/bcg.jpg) 50%/cover no-repeat;
+	background: url(./img/bcg.jpg) 50%/cover no-repeat;
 	padding-top: 30px;
 	background-color: #000;
 	color: #fff;
@@ -261,7 +261,7 @@ body {
 /* =======================/Section Lord======================= */
 /* =======================Section End======================= */
 .section-end {
-	background: url(img/image-end.jpg) 50%/cover no-repeat;
+	background: url(./img/image-end.jpg) 50%/cover no-repeat;
 }
 .section__end-inner {
 	min-height: 494px;
