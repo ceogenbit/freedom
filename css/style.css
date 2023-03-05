@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&display=swap');
+/* =======================Null======================= */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: transparent;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+[class*="__container"] {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 100%;
+}
+/* =======================/Null======================= */
+body {
+    font-family: 'Barlow', sans-serif;
+	color: #FFFFFF;
+}
+.wrapper {
+	min-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* =======================Header======================= */
+.header {
+	background: url(../img/bcg.jpg) 50%/cover no-repeat;
+	padding-top: 30px;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	min-height: 100vh;
+}
+.header__big-block {
+    min-height: calc(100vh - 58px); 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.freedom-logo {
+	width: 143px;
+	height: 28px;
+	display: inline-block;
+}
+.header__small-block {
+	max-width: 746px;
+	min-height: 335px;
+	padding: 60px 0;
+}
+.header__first-semester-text {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.header__title {
+	max-width: 746px;
+	margin: 5px 0 10px 0;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+.header__subtitle {
+	max-width: 746px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+}
+.header__btn {
+	text-align: center;
+}
+.btn {
+	margin-top: 30px;
+	padding: 20px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	background: #E11B19;
+	border-radius: 40px;
+	text-transform: uppercase;
+	transition: all 0.4s ease;
+}
+.btn:hover {
+	background: #a3110f;
+}
+.pic-arrow {
+	margin-left: 15px;
+}
+/* =======================/Header======================= */
+
+/* =======================Main======================= */
+
+/* =======================Section Hero======================= */
+.main {
+	overflow: hidden;
+}
+.section-hero {
+	background: #191C1F;
+	width: 100%;
+    min-height: 200px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.section-hero__inner {
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 30px 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	align-items: center;
+}
+.section-hero__column {
+	width: 100%;
+	min-height: 70px;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	border-radius: 25px;
+	transition: all 0.5s ease;
+}
+.section-hero__column:hover {
+	background: #2e2f30;
+}
+.pics-hero {
+	margin-right: 20px;
+	width: 40px;
+	height: 40px;
+}
+.section-hero__members-text, .hero__column-text-top {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+}
+.section-hero__column-text-block {
+	max-width: 178px;
+	min-height: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	white-space: normal;
+}
+.section-hero__column-text-top {
+	width: 100%;
+	min-height: 40px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+}
+.section-hero__column-text-bottom {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+}
+/* =======================/Section Hero======================= */
+
+/* =======================/Section World======================= */
+.section-world {
+	background: #1F2327;
+	min-height: 550px;
+}
+.section-world__inner {
+	padding: 164px 0 60px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pic-unsplash {
+	max-width: 540px;
+	max-height: 376px;
+	width: 100%;
+	display: inline-block;
+}
+.section-world__block {
+	max-width: 443px;
+	min-height: auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+.section-world__title {
+	max-width: 405px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+.section-world__list-text:not(:last-child) {
+	margin-bottom: 12px;
+}
+.section-world__list-text img {
+	margin-right: 15px;
+}
+.section-world__list-text {
+	display: flex;
+	align-items: center;
+}
+/* =======================/Section World======================= */
+
+/* =======================/Section Lord======================= */
+.section-lord {
+	background: #191C1F;
+}
+.section-lord__inner {
+	padding: 164px 0 60px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.pic-lord {
+	max-width: 540px;
+	max-height: 376px;
+	width: 100%;
+	display: inline-block;
+}
+.section-lord__block {
+	max-width: 405px;
+	min-height: 150px;
+}
+.section-lord__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.section-lord__title {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.section-lord__subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+}
+/* =======================/Section Lord======================= */
+/* =======================Section End======================= */
+.section-end {
+	background: url(../img/image-end.jpg) 50%/cover no-repeat;
+}
+.section__end-inner {
+	min-height: 494px;
+	padding: 60px 0;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	text-transform: uppercase;
+}
+.section-end__small-block {
+	max-width: 746px;
+	min-height: 335px;
+	margin: 0 auto;
+	text-align: center;
+}
+.section-end__first-semester-text {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+}
+.section-end__title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 75px;
+}
+.section-end__subtitle {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: none;
+	margin: 10px 0 0 0;
+}
+/* =======================/Section End======================= */
+/* =======================Footer======================= */
+.footer {
+	padding: 40px 0;
+	background: #14171A;
+}
+.footer__block {
+	min-height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__link:not(:last-child) {
+	margin-right: 15px;
+}
+.pic-footer {
+	display: inline-block;
+}
+/* =======================/Footer======================= */
+/* =======================Break Points======================= */
+@media (max-width:1100px) {
+	.section-hero__inner {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.section-hero__column {
+		align-items: center;
+		justify-content: center;
+	}
+	.secrion-hero__column:not(:first-child) {
+		padding-top: 30px;
+	}
+	.section-hero__column:not(:last-child) {
+		padding-bottom: 30px;
+	}
+	.section-world__inner {
+		padding: 60px 0;
+		flex-direction: column-reverse;
+	}
+	.section-world__block {
+		margin-bottom: 60px;
+	}
+	.section-lord__inner {
+		flex-direction: column-reverse;
+		padding: 60px 0;
+	}
+	.section-lord__subtitle {
+		margin-bottom: 60px;
+	}
+}
+@media (max-width:676px) {
+	.section-hero__inner {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+	.footer__block {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__freedom-logo {
+		margin-bottom: 25px;
+	}
+	.footer__links {
+		display: flex;
+		justify-content: center;
+	}
+	
+}
+/* =======================/Break Points======================= */
